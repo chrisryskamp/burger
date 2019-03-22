@@ -8,47 +8,36 @@ body {
 	font-size: 2em;
 }
 
-body:after {
-	content : "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-image: url(../image/burger_background.jpg);
-	background-size: cover;
-	background-repeat:no-repeat;
-	width: 100%;
-	min-height: 100vh;
-	opacity : 0.3;
-	z-index: -1;
-}
+
 
 h1 {
 	color: green;
 	font-size: 2em !important;
+	text-align: center;
 }
 
-#page-name {
+h2 {
 	text-align: center;
-	margin: 30px 0;
 }
+
+p { 
+	text-align: center;
+}
+
+.btn-primary {
+	position: relative;
+	align-content: center;
+	margin-left: 666px;
+}
+
 
 img {
 	height: 200px;
+	margin-left: 565px;
 }
 
-.col-left {
-	padding-left: 20%;
+.form-group {
+	align-content: center;
+	margin-left: 640px;
 }
-
-.col-right {
-	text-align: left;
-}
-
-.table-first-col {
-	width: 270px;
-}
-
-
-
 
